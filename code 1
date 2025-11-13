@@ -1,0 +1,167 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 20,
+        "fields": {
+            "year": 2016,
+            "display_year": "2028",
+            "summary": "<p>The 2028 election begins, as America's charred foundations remain more polarized than ever. In its ashes, two candidates from near complete opposite sides of the political spectrum - and in  life experience - stand to try to rebuilt the United States from the ground up.<br><br>Charlie Kirk brings his youth, conservatism, and outsider perspective to try and shake up how America operates in the 21st century.<br><br>Tim Walz will try to bring a center-left perspective, alongside some Midwestern folkiness, to try and reinvigorate bipartisan feelings among Americans.",
+            "image_url": "https://i.imgur.com/ypvReqW.png",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "123",
+            "recommended_reading": "<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "../static/images/2012-no-majority.jpg"
+        }
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 20,
+        "year": 2016,
+        "is_premium": 0,
+        "display_year": "2028"
+    }
+]
+
+campaignTrail_temp.credits = "Zohran Mamdani"
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 25,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 1001,
+        "fields": {
+            "first_name": "Charlie",
+            "last_name": "Kirk",
+            "election": 20,
+            "party": "Republican",
+            "state": "Ilinois",
+            "priority": 1,
+            "description": "<p>Charles James Kirk. To Right America, a visionary, a man wise beyond his years, a beacon of hope in a generation of darkness. To Left America, <b>the Antichrist</b>.<br><br>Known far and wide throughout the Western world as a symbol of the youth conservative resurgence, Kirk has truly made a name for himself - for better or for worse, he has contributed significantly to the political polarization showcased throughout the late 2010s and early 2020s. But should his path be carved out for him, be it by whim or by flim, Charlie will brute and brain his way into the White House.<br><br>After all, isn't that what God's plan is for him?</p>",
+            "color_hex": "#ff0000",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/CEZkVzN.jpeg",
+            "electoral_victory_message": "<b>Letter from Vice President Vance to President elect Charlie Kirk</b>\n\nDear Charlie,\n\nI write this letter with immense pride and gratitude—congratulating you on your historic victory, becoming the 48th President of the United States. Your campaign against Governor Tim Walz was bold, unflinching, and rooted in conviction, and tonight the American people affirmed your message of renewal, hope, and principled leadership.\n\nFrom the earliest days when you declared your intention to serve, you spoke not only of ambition, but of duty. You pledged to restore trust, to bridge divisions, and to reposition America as a confident champion of freedom and opportunity. Throughout the campaign you demonstrated courage, meeting crowds in rural towns and city neighborhoods alike, listening more than talking, and always keeping your promise that government must serve the citizen, not the other way around.\n\nGovernor Walz mounted a strong, earnest challenge, representing a coalition of interests and a vision of a more managed, cautious trajectory for our nation. Yet the voters reached a clear verdict: they believed that your path, the path of bold vision, renewal of national purpose, and respect for individuals’ liberty, was the right direction for America in this moment.\n\nAs your current Vice President, and fellow Republican, I could not be more honored to have walked this road with you. The long nights, the unexpected obstacles, the moments of decision — all of them now culminating in this outcome. But the victory itself is only the beginning. What lies ahead demands more than energy. It demands character. It demands that you govern with the same integrity, clarity, and openness that you campaigned with.\n\nHere is what I pledge to you now, as you prepare to assume the highest office:\n\nYou must serve with full loyalty and honesty, speaking truth to your people when needed, offering counsel grounded not in politics, but in principle.\n\nI will help you build a team worthy of this mandate: competent, diverse in thought, resolute in purpose.\n\nI will encourage you to lead both boldly and humbly; boldly, because this moment demands vision; humbly, because you serve all Americans, not just those who supported you.\n\nI will remind you that the trust you have earned must be repaid by relentless diligence, by listening, by responding, by acting.\n\nAnd finally: take a moment tonight to reflect. Celebrate this achievement with those who stood by you. Erika. Bernie. Gigi. Then tomorrow morning, look ahead. Because the work begins now.\n\nCongratulations, Mr. Kirk. The country placed its faith in you. Now, you have the opportunity to rise to that calling. I’m ready. We’re ready. Let’s move this nation forward together.",
+            "electoral_loss_message": "<p>Ronald Sr.:\nTotal disaster. We had it locked up. There’s no way we should’ve lost this thing.\n\nRJ:\nThe numbers flipped fast, Dad. Midwest came out huge for Walden. No one saw that turnout coming.\n\nRonald Sr.:\nTurnout, my foot. That’s what they always say. You think people really showed up for that guy? We had the rallies, the energy, the crowds. Everyone said it was ours.\n\nRJ:\nYeah, but those last few weeks hurt. Bad press, the debate stumble—it all added up.\n\nRonald Sr.:\nThat’s nonsense. The media twisted everything. He should’ve hit back harder. I told him not to play nice.\n\nRJ:\nHe followed your playbook almost exactly.\n\nRonald Sr.:\nNo. He pretended to. He didn’t have the instinct. You can’t win being polite. You win by dominating.\n\nRJ:\nMaybe people didn’t want domination this time. They wanted quiet.\n\nRonald Sr.:\nQuiet doesn’t win. Quiet gets you ignored.\n\nRJ:\nMaybe. Or maybe people are just tired.\n\nRonald Sr.:\nYou sound like them. The quitters.\n\nRJ:\nNo, I’m just looking at reality. It’s not 2016 anymore, Dad.\n\nRonald Sr.:\nCould’ve been. If people had listened.\n\nRJ:\nOr maybe it’s time to change tactics.\n\nRonald Sr.:\nYou don’t change what works. You double down.\n\nRJ:\nAlright. But at least issue a statement congratulating him. It’ll look good.\n\nRonald Sr.:\nNot doing it.\n\nRJ:\nDad—\n\nRonald Sr.:\nNo. He didn’t win fair.\n\n(Long pause)\n\nRJ:\nOkay. I’ll write something neutral for the press, then.\n\nRonald Sr.:\nFine. But remember this, kid—losers accept it and fade away. Winners regroup.\n\nRJ:\nYeah. I know.\n\nRonald Sr.:\nAnd I’m not done winning. Not yet.</p>",
+            "no_electoral_majority_message": "<big><big><big><big>stop jerking off and start reading the Bible, son<big>",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 1002,
+        "fields": {
+            "first_name": "Bernie",
+            "last_name": "Moreno",
+            "election": 20,
+            "party": "Republican",
+            "state": "Ohio",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#ff0000",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/rRu5zRX.pngndidateexample.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>Bernie Moreno is currently the senior Senator from Ohio, despite the fact that he only ever was junior Senator for about 2 weeks. Filling the role that esteemed Senator Sherrod Brown once held, Moreno has chosen to abdicate the responsibilties Brown had of filling the hearts and minds of Ohioans with labor rights and replace it with a more lowkey style of representation.<br><br>Of course, Moreno is ineligible for the role of Vice President. Born in Colombia to two Colombian parents, Bernardo represents some sort of American fever dream, not a role player to fill in for any nasty incidents that might occur in the Kirk presidency...</p>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 109261,
+        "fields": {
+            "candidate": 1001,
+            "running_mate": 1002
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 20,
+        "candidates": [
+            1001
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 20,
+        "candidates": [
+            1001
+        ]
+    }
+]
+
+jet_data = {
+    "headerColor": "#c6153b",
+    "windowColor": "#060557",
+    "containerColor": "#FFFFFF",
+    "innerWindowColor": "#142144",
+    "bannerImageUrl": "https://i.imgur.com/I4Ogb5I.jpeg",
+    "backgroundImageUrl": "https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg",
+    "endingTextColor": "#000000",
+    "customQuote": "\"It is illegal to shoot and kill people\" - Charlie Kirk on May 20, 2018",
+    "gameTitle": "TO COUNT, OR NOT TO COUNT"
+}
+
+//#startcode
+
+
+corrr = '\n              <h2>TO COUNT, OR NOT TO COUNT</h2><font id="wittyquote" size="4" color="white"><em>"It is illegal to shoot and kill people" - Charlie Kirk on May 20, 2018</em></font>\n            ';
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#c6153b";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#060557";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#FFFFFF";
+
+document.getElementById("header").src = "https://i.imgur.com/I4Ogb5I.jpeg";
+
+document.body.background = "https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#142144!important;}</style>";
+
+//#endcode
