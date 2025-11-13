@@ -16,53 +16,6 @@ campaignTrail_temp.election_json = [
     }
 ]
 
-// Psst: this is for replacing the site_description with this custom modal. Taken from 2016ALOT
-(() => {
-    const CONFIG = {
-        titleColor: '#BB311C',
-        imageHeight: '125px',
-        imageSrc: 'imagelink',
-        margin: '-20px',
-        widthCalc: 'calc(100% - 40px)'
-    };
-
-    const inner = document.getElementById('inner_window_1');
-    if (!inner || inner.children.length < 2) return;
-    const [headingEl, contentEl] = inner.children;
-    const gameStart = document.getElementById('game_start');
-    const gameWindow = document.getElementById('game_window');
-
-    // temporary auto resize
-    if (gameWindow) gameWindow.style.height = 'auto';
-
-    headingEl.innerHTML = `<h3 style="color: #15054F; letter-spacing: 2px">MODNAME</h3>`;
-    Object.assign(contentEl.style, { marginLeft: CONFIG.margin, width: CONFIG.widthCalc });
-    contentEl.innerHTML = generatePrologueHTML(CONFIG);
-
-    if (gameStart) {
-        gameStart.innerHTML = '<strong>This works.</strong>';
-        const clearHeight = () => { if (gameWindow) gameWindow.style.removeProperty('height'); };
-        if (window.jQuery) $('#game_start').on('click', clearHeight);
-        else gameStart.addEventListener('click', clearHeight);
-    }
-
-    function generatePrologueHTML({ titleColor, imageHeight, imageSrc }) {
-        return `
-      <div style=\"align-items: center; display: flex; height: ${imageHeight}; justify-content: center; overflow: hidden;\">
-        <img src=\"${imageSrc}\" alt=\"Image\" style=\"object-fit: cover; object-position: center; width: auto\" />
-      </div>
-    <p>
-      To count, or not to count.
-That is the question.
-This is <b>NOT</b> alternative history; even though it should be.
-This is an election where the rights of the few are stripped, and the riches of the many enhanced.
-These policies, both their success and ideology, will effect the level of attentiveness each country has with regards to the United States.
-Are you ready?.
-    </p>
-    `;
-    }
-})();
-
 campaignTrail_temp.temp_election_list = [
     {
         "id": 20,
