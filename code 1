@@ -98,6 +98,98 @@ campaignTrail_temp.candidate_json = [
             "candidate_score": 1,
             "running_mate": true
         }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50000,
+        "fields": {
+            "first_name": "Jim",
+            "last_name": "Justice",
+            "election": 20,
+            "party": "Republican",
+            "state": "West Virginia",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#ff0000",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/NAIQcbZ.jpeg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>Justice is a figure from West Virginia who's willing to be on your ticket.</p>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50001,
+        "fields": {
+            "first_name": "Luigi",
+            "last_name": "Mangione",
+            "election": 20,
+            "party": "Unknown",
+            "state": "Hawaii",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#ffffff",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/8DQcvUb.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>The prime suspect in the murder of New York Senator Chuck Schumer, Mangione gained nationwide condemnation - and praise - for his role, showcasing an evergrowing distrust of American public figures.<br><br>Never mind the fact that his horrid aim shot Schumer instead of some healthcare CEO...</p>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50002,
+        "fields": {
+            "first_name": "Dan",
+            "last_name": "Quayle",
+            "election": 20,
+            "party": "Republican",
+            "state": "Indiana",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/9kR4GR8.jpeg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>Dan Quayle served as a Senator from Indiana for seven years in the 1980s, then as Vice President from 1989 to 1993. He would be an unexpected choice, as he was the first baby boomer to run on a national ticket. He does not have a long record of achievement at the highest stage, but he could have some appeal to social conservatives, Midwesterners, and older, more nostalgic voters. There is some skepticism about his intellect, and his campaigning and debating ability.</p>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50003,
+        "fields": {
+            "first_name": "JD",
+            "last_name": "Vance",
+            "election": 20,
+            "party": "Republican",
+            "state": "Ohio",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#ff0000",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/udqlc7Y.jpeg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>JD Vance would certainly be an interesting pick. For one, he would be the first Vice President since John C. Calhoun to serve under two separate Presidents. But secondly, and perhaps more importantly, he brings a sense of pragmatism, compassion, and restraint that many Americans fear your candidacy lacks. He also brings President Trump even further into your camp, and that may come with both some benefits, and drawbacks...</p>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
     }
 ]
 
@@ -108,6 +200,30 @@ campaignTrail_temp.running_mate_json = [
         "fields": {
             "candidate": 1001,
             "running_mate": 1002
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 117426,
+        "fields": {
+            "candidate": 1001,
+            "running_mate": 50002
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 142878,
+        "fields": {
+            "candidate": 1001,
+            "running_mate": 50001
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 137353,
+        "fields": {
+            "candidate": 1001,
+            "running_mate": 50000
         }
     }
 ]
@@ -142,6 +258,242 @@ jet_data = {
     "gameTitle": "TO COUNT, OR NOT TO COUNT"
 }
 
+// Initialise custom music
+  
+  $("#music_player")[0].children[0].style.display="none"
+  $("#music_player")[0].children[1].style.display="none"
+  
+  document.getElementById("modLoadReveal").style.display="none"
+  document.getElementById("modloaddiv").style.display="none"
+  
+  musicBox = document.getElementById("music_player")
+  musicBox.style.display=""
+  
+  var trackSel;
+  e = campaignTrail_temp
+  e.selectedSoundtrack = 0
+  
+  toTime = (seconds) => {
+    var date = new Date(null);
+    date.setSeconds(seconds);
+    return date.toISOString().substr(11, 8);
+  }
+  
+  generateTime = () => {
+      // Get the audio element
+      var audio = document.getElementById("campaigntrailmusic");
+  
+      timeTracker = document.createElement("div");
+      timeTracker.style = `
+        text-align:left;
+        border-style:solid;
+        border-width:3px;
+        height:150px;
+        width:200px;
+        background-color:#999999;
+        float:right;
+        padding: 10px;
+      `
+      $("#trackSelParent")[0].prepend(timeTracker);
+      $("#trackSelParent")[0].prepend(document.createElement("br"));
+  
+      // Create a new element to display the current position of the audio
+      var positionDisplay = document.createElement("gg");
+      positionDisplay.id = "position-display";
+  
+      // Create a new slider element to change the time
+      var timeSlider = document.createElement("input");
+      timeSlider.type = "range";
+      timeSlider.min = 0;
+      timeSlider.max = 1;
+      timeSlider.step = 0.001;
+      timeSlider.value = 0;
+      timeSlider.style.width = "200px";
+      timeSlider.id = "time-slider";
+  
+      var pausePlay = document.createElement("button");
+      pausePlay.id = "position-display";
+      pausePlay.innerHTML = "<b>Pause</b>"
+      pausePlay.style.width = "100%";
+  
+  
+      pausePlay.addEventListener("click", event => {
+        event.preventDefault();
+        updatePositionDisplay();
+        let audio = document.getElementById("campaigntrailmusic");
+        if (audio.paused) {
+          audio.play();
+          event.target.innerHTML = "<b>Pause</b>";
+          return;
+        }
+        audio.pause();
+        event.target.innerHTML = "<b>Play</b>";
+        return;
+      })
+  
+      var volumeLabel = document.createElement("gg");
+      volumeLabel.id = "volume-label";
+      volumeLabel.innerHTML = "<br><b>Volume: </b>"
+  
+      var volumeSlider = document.createElement("input");
+      volumeSlider.type = "range";
+      volumeSlider.min = 0;
+      volumeSlider.max = 1;
+      volumeSlider.step = 0.001;
+      volumeSlider.value = 0;
+      volumeSlider.style.width = "200px";
+      volumeSlider.id = "volume-slider";
+  
+      volumeSlider.value = audio.volume;
+  
+      timeTracker.appendChild(pausePlay);
+      timeTracker.appendChild(document.createElement("br"));
+      timeTracker.appendChild(document.createElement("br"));
+      timeTracker.appendChild(positionDisplay);
+      timeTracker.appendChild(timeSlider);
+      timeTracker.appendChild(volumeLabel);
+      timeTracker.appendChild(volumeSlider);
+  
+      updatePositionDisplay();
+  
+      //for (let i = 0; i < 10; i++)
+      //timeTracker.append(document.createElement("br"));
+  
+  
+      // Function to update the position display
+      function updatePositionDisplay() {
+        positionDisplay.innerHTML = "<b>Time:</b> " + toTime(audio.currentTime) + "<br>";
+        timeSlider.value = audio.duration ? audio.currentTime / audio.duration : 0;
+      }
+  
+      // Function to change the time of the audio
+      function changeTime() {
+        positionDisplay.innerHTML = "<b>Time:</b> " + toTime(audio.currentTime) + "<br>";
+        audio.currentTime = timeSlider.value * audio.duration;
+      }
+  
+      updateVolume = event => {
+        audio.volume = event.target.value;
+      }
+      
+      // Update the position display and slider every second
+      setInterval(updatePositionDisplay, 1000);
+  
+      // Listen for changes to the time slider and change the time of the audio
+      timeSlider.addEventListener("input", changeTime);
+      volumeSlider.addEventListener("input", updateVolume)
+  }
+  
+  function newMusicPlayer() {
+    trackSel = document.createElement("div");
+    trackSel.id = "trackSelParent"
+    let z = `<br><br><br><br><br><br><br><br><br><br><div id='trackSel' style="text-align:left;border-style:solid;border-width:3px;overflow-y: scroll;overflow-x: hidden;height:200px; width:400px;background-color:#999999;float:right;">`
+    z += `<b><select id='selectSoundtrack'><option value='`+soundtracks[e.selectedSoundtrack].name+`'>`+soundtracks[e.selectedSoundtrack].name+"</option>"
+    for (i in soundtracks) {
+      if (soundtracks[e.selectedSoundtrack] != soundtracks[i]) {
+        z += `<option value='`+soundtracks[i].name+`'>`+soundtracks[i].name+`</option>`
+      }
+    }
+    z += `</select></b><br><br>`
+    // <label><input type="radio" name="option" value="option1">Option 1</label><br>
+    for (i in soundtracks[e.selectedSoundtrack].tracklist) {
+      let a = soundtracks[e.selectedSoundtrack].tracklist[i]
+      let b = `<label><input class="trackSelector" type="radio" name="trackSelector" value="`+i+`">`+a.name+`</label><br>`
+      z += b
+    }
+    z += "</div><br><br>"
+    trackSel.innerHTML = z
+  
+    // select correct song
+  
+    musicBox.appendChild(trackSel);
+    Array.from(document.getElementById("trackSel").children).filter(f=>{
+      return f.tagName == "LABEL"
+    }).map(f=>f.children[0])[0].checked = true
+  
+    // set soundtrack changer
+  
+    soundtrackSelector = document.getElementById("selectSoundtrack")
+    soundtrackSelector.onchange = function() {
+      for (i in soundtracks) {
+        if (soundtracks[i].name == soundtrackSelector.value) {
+          e.selectedSoundtrack = i
+          break
+        }
+      }
+      document.getElementById("trackSelParent").remove()
+      newMusicPlayer()
+    }
+  
+    var matches = document.querySelectorAll('.trackSelector');
+  
+    for (match in matches) {
+      matches[match].onchange = function() {
+        audio = $("#campaigntrailmusic")[0];
+        audio.src = soundtracks[e.selectedSoundtrack].tracklist[this.value].url
+        audio.currentTime = 0
+      }
+    }
+  
+    musicBox.children[2].loop = false
+    musicBox.children[2].src = soundtracks[e.selectedSoundtrack].tracklist[0].url
+  
+    musicBox.children[2].onended = function() {
+      console.log("next track")
+      let selected = Number(document.querySelector('input[name="trackSelector"]:checked').value);
+      let newSel = clamp(selected+1, soundtracks[e.selectedSoundtrack].tracklist.length-1, 0)
+      let buttons = Array.from(document.getElementById("trackSel").children).filter(f=>{
+        return f.tagName == "LABEL"
+      }).map(f=>f.children[0])
+      //let selectedIndex = buttons.map(f=>f.children[0]).map(f=>f.checked)
+      buttons[newSel].click()
+    }
+  
+    for (w = 0; w < 7; w++) {
+      document.getElementById("trackSelParent").appendChild(document.createElement("br"))
+    }
+    
+    generateTime();
+  }
+  
+  clamp = function(a, max, min, overflow=true) {
+    if (overflow) {
+      return a > max ? min : a < min ? max : a;
+    }
+    return a > max ? max : a < min ? min : a;
+  }
+  
+  
+  // Track list
+  
+  var soundtracks = {
+    0: {
+      name: "TPUSA Jams",
+      tracklist: [
+        {
+          "name": "Mystery Song #1",
+          "url": "https://file.garden/aGMtX3HRbS8W-RJ6/Rock%20N%20Roll%20McDonalds.mp3"
+        },
+        {
+          "name": "Mystery Song #2",
+          "url": "https://file.garden/aGMtX3HRbS8W-RJ6/Cam%20-%20Burning%20House%20(Lyric%20Video).mp3"
+        },
+        {
+          "name": "Mystery Song #3",
+          "url": "https://file.garden/aGMtX3HRbS8W-RJ6/Killer%20Mike%20-%20Reagan%20(Official%20Music%20Video).mp3"
+        },
+        {
+          "name": "Mystery Song #4",
+          "url": "https://file.garden/aGMtX3HRbS8W-RJ6/Tyga%20Ft.%20The%20Game%20-%20Switch%20Lanes%20(Lyrics).mp3"
+        }
+      ]
+    }
+  }
+  
+  // Set up new music player
+  
+  newMusicPlayer()
+
 //#startcode
 
 
@@ -165,3 +517,4 @@ document.body.background = "https://coolbackgrounds.io/images/backgrounds/white/
 document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#142144!important;}</style>";
 
 //#endcode
+
