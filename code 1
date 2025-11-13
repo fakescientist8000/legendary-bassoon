@@ -8,8 +8,8 @@ campaignTrail_temp.election_json = [
             "summary": "<p>The 2028 election begins, as America's charred foundations remain more polarized than ever. In its ashes, two candidates from near complete opposite sides of the political spectrum - and in  life experience - stand to try to rebuilt the United States from the ground up.<br><br>Charlie Kirk brings his youth, conservatism, and outsider perspective to try and shake up how America operates in the 21st century.<br><br>Tim Walz will try to bring a center-left perspective, alongside some Midwestern folkiness, to try and reinvigorate bipartisan feelings among Americans.",
             "image_url": "https://i.imgur.com/ypvReqW.png",
             "winning_electoral_vote_number": 270,
-            "advisor_url": "123",
-            "recommended_reading": "<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>",
+            "advisor_url": "https://i.imgur.com/FeEb1yG.png",
+            "recommended_reading": "<ul>\n<li><a href=https://en.wikipedia.org/wiki/Assassination_of_Charlie_Kirk>Our American Hero</a></li>\n</ul>",
             "has_visits": 1,
             "no_electoral_majority_image": "../static/images/2012-no-majority.jpg"
         }
