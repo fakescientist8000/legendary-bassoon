@@ -109,30 +109,6 @@ campaignTrail_temp.running_mate_json = [
             "candidate": 1001,
             "running_mate": 1002
         }
-    },
-    {
-        "model": "campaign_trail.running_mate",
-        "pk": 117426,
-        "fields": {
-            "candidate": 1001,
-            "running_mate": 50002
-        }
-    },
-    {
-        "model": "campaign_trail.running_mate",
-        "pk": 142878,
-        "fields": {
-            "candidate": 1001,
-            "running_mate": 50001
-        }
-    },
-    {
-        "model": "campaign_trail.running_mate",
-        "pk": 137353,
-        "fields": {
-            "candidate": 1001,
-            "running_mate": 50000
-        }
     }
 ]
 
