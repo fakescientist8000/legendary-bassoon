@@ -8,7 +8,7 @@ campaignTrail_temp.election_json = [
             "image_url": "https://i.imgur.com/ypvReqW.png",
             "winning_electoral_vote_number": 270,
             "advisor_url": "https://i.imgur.com/FeEb1yG.png",
-            "recommended_reading": "<ul>\n<li><a href=https://en.wikipedia.org/wiki/Assassination_of_Charlie_Kirk>Our American Hero</a></li>\n</ul>",
+            "recommended_reading": "<ul>\n<li><a href=https://en.wikipedia.org/wiki/Assassination_of_Charlie_Kirk> Our American Hero</a></li>\n</ul>",
             "has_visits": 1,
             "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
             "display_year": "2028"
