@@ -38679,5 +38679,12 @@ campaignTrail_temp.jet_data = [{
         "303": "Jill Stein"
     }
 }
+    "banner_enabled": true,
+    "banner_data": {
+        "canName": "Kirk",
+        "runName": "Moreno",
+        "canImage": "https://i.imgur.com/S7K7Y1w.jpeg",
+        "runImage": "https://i.imgur.com/J5C2JXw.jpeg"
+    }
 ]
 
