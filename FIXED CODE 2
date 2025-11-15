@@ -4206,7 +4206,7 @@ campaignTrail_temp.candidate_issue_score_json = [
         "model": "campaign_trail.candidate_issue_score",
         "pk": 1100,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "issue": 110,
             "issue_score": 0.4356
         }
@@ -4215,7 +4215,7 @@ campaignTrail_temp.candidate_issue_score_json = [
         "model": "campaign_trail.candidate_issue_score",
         "pk": 1101,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "issue": 111,
             "issue_score": 0.4894
         }
@@ -4224,7 +4224,7 @@ campaignTrail_temp.candidate_issue_score_json = [
         "model": "campaign_trail.candidate_issue_score",
         "pk": 1102,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "issue": 112,
             "issue_score": 0.3087
         }
@@ -4233,7 +4233,7 @@ campaignTrail_temp.candidate_issue_score_json = [
         "model": "campaign_trail.candidate_issue_score",
         "pk": 1103,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "issue": 113,
             "issue_score": 0.2971
         }
@@ -4242,7 +4242,7 @@ campaignTrail_temp.candidate_issue_score_json = [
         "model": "campaign_trail.candidate_issue_score",
         "pk": 1104,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "issue": 114,
             "issue_score": 0.5356
         }
@@ -4437,7 +4437,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3000,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1100,
             "state_multiplier": 1.1766865666
         }
@@ -4446,7 +4446,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3001,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1101,
             "state_multiplier": 1.0809767429
         }
@@ -4455,7 +4455,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3002,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1102,
             "state_multiplier": 1.0449190374
         }
@@ -4464,7 +4464,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3003,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1103,
             "state_multiplier": 1.286468633
         }
@@ -4473,7 +4473,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3004,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1104,
             "state_multiplier": 1.0691205912
         }
@@ -4482,7 +4482,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3005,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1105,
             "state_multiplier": 0.9958251152
         }
@@ -4491,7 +4491,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3006,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1106,
             "state_multiplier": 1.1304302628
         }
@@ -4500,7 +4500,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3007,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1107,
             "state_multiplier": 0.9465813142
         }
@@ -4509,7 +4509,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3008,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1108,
             "state_multiplier": 1.1763293534
         }
@@ -4518,7 +4518,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3009,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1109,
             "state_multiplier": 1.02002066
         }
@@ -4527,7 +4527,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3010,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1110,
             "state_multiplier": 1.0932388293
         }
@@ -4536,7 +4536,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3011,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1111,
             "state_multiplier": 0.9430459621
         }
@@ -4545,7 +4545,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3012,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1112,
             "state_multiplier": 1.0765373294
         }
@@ -4554,7 +4554,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3013,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1113,
             "state_multiplier": 1.205868301
         }
@@ -4563,7 +4563,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3014,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1114,
             "state_multiplier": 1.2442125715
         }
@@ -4572,7 +4572,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3015,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1115,
             "state_multiplier": 1.0954119166
         }
@@ -4581,7 +4581,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3016,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1116,
             "state_multiplier": 1.3146272637
         }
@@ -4590,7 +4590,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3017,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1117,
             "state_multiplier": 0.9049377863
         }
@@ -4599,7 +4599,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3018,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1118,
             "state_multiplier": 1.0868431254
         }
@@ -4608,7 +4608,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3019,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1119,
             "state_multiplier": 0.9337945607
         }
@@ -4617,7 +4617,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3020,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1120,
             "state_multiplier": 1.0364575972
         }
@@ -4626,7 +4626,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3021,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1121,
             "state_multiplier": 1.1393955082
         }
@@ -4635,7 +4635,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3022,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1122,
             "state_multiplier": 1.046998955
         }
@@ -4644,7 +4644,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3023,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1123,
             "state_multiplier": 1.1040768545
         }
@@ -4653,7 +4653,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3024,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1124,
             "state_multiplier": 1.2645874845
         }
@@ -4662,7 +4662,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3025,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1125,
             "state_multiplier": 1.4236943627
         }
@@ -4671,7 +4671,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3026,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1126,
             "state_multiplier": 0.9609104019
         }
@@ -4680,7 +4680,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3027,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1127,
             "state_multiplier": 1.0425324025
         }
@@ -4689,7 +4689,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3028,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1128,
             "state_multiplier": 1.1431027927
         }
@@ -4698,7 +4698,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3029,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1129,
             "state_multiplier": 1.1229713633
         }
@@ -4707,7 +4707,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3030,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1130,
             "state_multiplier": 1.0333390176
         }
@@ -4716,7 +4716,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3031,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1131,
             "state_multiplier": 1.1967815556
         }
@@ -4725,7 +4725,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3032,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1132,
             "state_multiplier": 1.0617068629
         }
@@ -4734,7 +4734,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3033,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1133,
             "state_multiplier": 1.4116751001
         }
@@ -4743,7 +4743,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3034,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1134,
             "state_multiplier": 1.2045641639
         }
@@ -4752,7 +4752,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3035,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1135,
             "state_multiplier": 1.3457740949
         }
@@ -4761,7 +4761,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3036,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1136,
             "state_multiplier": 1.0278124745
         }
@@ -4770,7 +4770,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3037,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1137,
             "state_multiplier": 1.1010211265
         }
@@ -4779,7 +4779,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3038,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1138,
             "state_multiplier": 0.992370344
         }
@@ -4788,7 +4788,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3039,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1139,
             "state_multiplier": 1.1320862078
         }
@@ -4797,7 +4797,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3040,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1140,
             "state_multiplier": 1.4226086873
         }
@@ -4806,7 +4806,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3041,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1141,
             "state_multiplier": 1.3121514918
         }
@@ -4815,7 +4815,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3042,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1142,
             "state_multiplier": 1.1869350667
         }
@@ -4824,7 +4824,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3043,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1143,
             "state_multiplier": 1.4064710309
         }
@@ -4833,7 +4833,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3044,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1144,
             "state_multiplier": 0.8778631476
         }
@@ -4842,7 +4842,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3045,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1145,
             "state_multiplier": 1.0291294711
         }
@@ -4851,7 +4851,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3046,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1146,
             "state_multiplier": 1.1404495271
         }
@@ -4860,7 +4860,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3047,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1147,
             "state_multiplier": 0.9297699728
         }
@@ -4869,7 +4869,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3048,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1148,
             "state_multiplier": 1.5
         }
@@ -4878,7 +4878,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3049,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1149,
             "state_multiplier": 1.2285617465
         }
@@ -4887,7 +4887,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3050,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1150,
             "state_multiplier": 1.3672000822
         }
@@ -4896,7 +4896,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3051,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1151,
             "state_multiplier": 1
         }
@@ -4905,7 +4905,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3052,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1152,
             "state_multiplier": 1
         }
@@ -4914,7 +4914,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3053,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1153,
             "state_multiplier": 1
         }
@@ -4923,7 +4923,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3054,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1154,
             "state_multiplier": 1
         }
@@ -4932,7 +4932,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "model": "campaign_trail.candidate_state_multiplier",
         "pk": 3055,
         "fields": {
-            "candidate": 300,
+            "candidate": 301,
             "state": 1155,
             "state_multiplier": 1
         }
@@ -6487,7 +6487,7 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 4003,
         "fields": {
             "answer": 6109,
-            "candidate": 300,
+            "candidate": 301,
             "affected_candidate": 300,
             "global_multiplier": 0.061
         }
@@ -6497,7 +6497,7 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 4079,
         "fields": {
             "answer": 6109,
-            "candidate": 300,
+            "candidate": 301,
             "affected_candidate": 302,
             "global_multiplier": 0.003
         }
@@ -6537,7 +6537,7 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 4094,
         "fields": {
             "answer": 6141,
-            "candidate": 300,
+            "candidate": 301,
             "affected_candidate": 301,
             "global_multiplier": -0.0015
         }
@@ -6547,7 +6547,7 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 4097,
         "fields": {
             "answer": 6147,
-            "candidate": 300,
+            "candidate": 301,
             "affected_candidate": 301,
             "global_multiplier": -0.002
         }
@@ -6567,7 +6567,7 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 4103,
         "fields": {
             "answer": 6166,
-            "candidate": 300,
+            "candidate": 301,
             "affected_candidate": 301,
             "global_multiplier": -0.001
         }
@@ -6577,7 +6577,7 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 4105,
         "fields": {
             "answer": 6175,
-            "candidate": 300,
+            "candidate": 301,
             "affected_candidate": 301,
             "global_multiplier": -0.001
         }
@@ -6637,7 +6637,7 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 42577,
         "fields": {
             "answer": 6185,
-            "candidate": 300,
+            "candidate": 301,
             "affected_candidate": 300,
             "global_multiplier": 0.007
         }
@@ -6647,7 +6647,7 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 42578,
         "fields": {
             "answer": 6184,
-            "candidate": 300,
+            "candidate": 301,
             "affected_candidate": 300,
             "global_multiplier": 0.009
         }
@@ -6657,7 +6657,7 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 42581,
         "fields": {
             "answer": 6186,
-            "candidate": 300,
+            "candidate": 301,
             "affected_candidate": 300,
             "global_multiplier": 0.01
         }
@@ -6667,7 +6667,7 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 42582,
         "fields": {
             "answer": 6187,
-            "candidate": 300,
+            "candidate": 301,
             "affected_candidate": 300,
             "global_multiplier": 0.0011
         }
@@ -6677,7 +6677,7 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 42585,
         "fields": {
             "answer": 6129,
-            "candidate": 300,
+            "candidate": 301,
             "affected_candidate": 300,
             "global_multiplier": -0.01
         }
@@ -6687,7 +6687,7 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 42588,
         "fields": {
             "answer": 6208,
-            "candidate": 300,
+            "candidate": 301,
             "affected_candidate": 300,
             "global_multiplier": 0.000002
         }
@@ -6697,7 +6697,7 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 42594,
         "fields": {
             "answer": 42591,
-            "candidate": 300,
+            "candidate": 301,
             "affected_candidate": 300,
             "global_multiplier": -9
         }
@@ -6707,7 +6707,7 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 42595,
         "fields": {
             "answer": 42592,
-            "candidate": 300,
+            "candidate": 301,
             "affected_candidate": 300,
             "global_multiplier": 9
         }
@@ -6717,7 +6717,7 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 42606,
         "fields": {
             "answer": 42605,
-            "candidate": 300,
+            "candidate": 301,
             "affected_candidate": 301,
             "global_multiplier": -0.0015
         }
@@ -6727,7 +6727,7 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 42716,
         "fields": {
             "answer": 6143,
-            "candidate": 300,
+            "candidate": 301,
             "affected_candidate": 300,
             "global_multiplier": 0.02
         }
@@ -6737,7 +6737,7 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 42720,
         "fields": {
             "answer": 6155,
-            "candidate": 300,
+            "candidate": 301,
             "affected_candidate": 300,
             "global_multiplier": 0.0001
         }
@@ -6747,7 +6747,7 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 42724,
         "fields": {
             "answer": 6173,
-            "candidate": 300,
+            "candidate": 301,
             "affected_candidate": 300,
             "global_multiplier": -0.002
         }
@@ -6757,7 +6757,7 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 42726,
         "fields": {
             "answer": 6118,
-            "candidate": 300,
+            "candidate": 301,
             "affected_candidate": 300,
             "global_multiplier": -0.007
         }
@@ -6767,7 +6767,7 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 42728,
         "fields": {
             "answer": 6140,
-            "candidate": 300,
+            "candidate": 301,
             "affected_candidate": 300,
             "global_multiplier": 0.01
         }
@@ -6777,7 +6777,7 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 42729,
         "fields": {
             "answer": 6170,
-            "candidate": 300,
+            "candidate": 301,
             "affected_candidate": 300,
             "global_multiplier": -0.003
         }
@@ -32072,7 +32072,7 @@ campaignTrail_temp.answer_score_state_json = [
         "fields": {
             "answer": 6187,
             "state": 1100,
-            "candidate": 300,
+            "candidate": 301,
             "affected_candidate": 300,
             "state_multiplier": 0.01
         }
@@ -37011,7 +37011,7 @@ campaignTrail_temp.answer_score_state_json = [
         "fields": {
             "answer": 42590,
             "state": 1149,
-            "candidate": 300,
+            "candidate": 301,
             "affected_candidate": 300,
             "state_multiplier": 10
         }
@@ -37022,7 +37022,7 @@ campaignTrail_temp.answer_score_state_json = [
         "fields": {
             "answer": 42590,
             "state": 1121,
-            "candidate": 300,
+            "candidate": 301,
             "affected_candidate": 301,
             "state_multiplier": 10
         }
@@ -37033,7 +37033,7 @@ campaignTrail_temp.answer_score_state_json = [
         "fields": {
             "answer": 42590,
             "state": 1137,
-            "candidate": 300,
+            "candidate": 301,
             "affected_candidate": 301,
             "state_multiplier": 10
         }
@@ -37044,7 +37044,7 @@ campaignTrail_temp.answer_score_state_json = [
         "fields": {
             "answer": 42590,
             "state": 1128,
-            "candidate": 300,
+            "candidate": 301,
             "affected_candidate": 301,
             "state_multiplier": 10
         }
@@ -37055,7 +37055,7 @@ campaignTrail_temp.answer_score_state_json = [
         "fields": {
             "answer": 42590,
             "state": 1102,
-            "candidate": 300,
+            "candidate": 301,
             "affected_candidate": 300,
             "state_multiplier": 10
         }
@@ -37066,7 +37066,7 @@ campaignTrail_temp.answer_score_state_json = [
         "fields": {
             "answer": 42590,
             "state": 1108,
-            "candidate": 300,
+            "candidate": 301,
             "affected_candidate": 300,
             "state_multiplier": 10
         }
@@ -37077,7 +37077,7 @@ campaignTrail_temp.answer_score_state_json = [
         "fields": {
             "answer": 42590,
             "state": 1109,
-            "candidate": 300,
+            "candidate": 301,
             "affected_candidate": 300,
             "state_multiplier": 10
         }
@@ -38303,7 +38303,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3065,
         "fields": {
             "answer": 6117,
-            "candidate": 300,
+            "candidate": 301,
             "answer_feedback": "No funny shit, do you have a condition? Because that answer was something only someone with a condition would have, you pompous fuck."
         }
     },
@@ -38312,7 +38312,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3066,
         "fields": {
             "answer": 6119,
-            "candidate": 300,
+            "candidate": 301,
             "answer_feedback": "After hearing this, Bill Montgomery curses you from Hell. "
         }
     },
@@ -38321,7 +38321,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3073,
         "fields": {
             "answer": 6132,
-            "candidate": 300,
+            "candidate": 301,
             "answer_feedback": "<p>Commentators have noticed that you are adopting an incredibly Trumplike personality style. Perhaps this will invigorate his base, and thus yours?</p>"
         }
     },
@@ -38330,7 +38330,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3077,
         "fields": {
             "answer": 6142,
-            "candidate": 300,
+            "candidate": 301,
             "answer_feedback": "It might not be traditional Republican policy, but no one can deny that these are unusual and exceptional times."
         }
     },
@@ -38339,7 +38339,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3078,
         "fields": {
             "answer": 6143,
-            "candidate": 300,
+            "candidate": 301,
             "answer_feedback": "Thanks to this call for help, Trump has unleashed boatloads of blood money into your campaign. Hopefully the money made off the backs and lives of poor Mexican families makes you sleep at night, dick."
         }
     },
@@ -38348,7 +38348,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3081,
         "fields": {
             "answer": 6147,
-            "candidate": 300,
+            "candidate": 301,
             "answer_feedback": "You grow from conservative activist to folk hero overnight. People wonder how you managed to survive, much less from such a figurehead like you. Trump immediately awards you the Presidential Medal of Freedom, and suddenly it's Charlie Kirk Week in America."
         }
     },
@@ -38357,7 +38357,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3083,
         "fields": {
             "answer": 6152,
-            "candidate": 300,
+            "candidate": 301,
             "answer_feedback": "Your plans in Afghanistan seem to trigger bipartisan alarm within the Beltway. But... many average people want the troops gone from Afghanistan."
         }
     },
@@ -38375,7 +38375,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3088,
         "fields": {
             "answer": 6166,
-            "candidate": 300,
+            "candidate": 301,
             "answer_feedback": "<p>Christian and right to life groups cheer you on in tandem, as they always have. In Georgia, a 28 year old nursing student dies of sepsis after being denied abortion pills, and in Texas, an 18 year old dies after waiting for 20 hours and 3 ultrasounds to confirm the death of the fetus in her body.</p>"
         }
     },
@@ -38384,7 +38384,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3090,
         "fields": {
             "answer": 6170,
-            "candidate": 300,
+            "candidate": 301,
             "answer_feedback": "\"“I think it’s worth it. It’s worth to have a cost of, unfortunately, some gun deaths every single year so that we can have the Second Amendment to protect our other God given rights. That’s a prudent deal.\" - Charlie Kirk, April 2023"
         }
     },
@@ -38393,7 +38393,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3091,
         "fields": {
             "answer": 6172,
-            "candidate": 300,
+            "candidate": 301,
             "answer_feedback": "About that..."
         }
     },
@@ -38402,7 +38402,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3092,
         "fields": {
             "answer": 6175,
-            "candidate": 300,
+            "candidate": 301,
             "answer_feedback": "You end up playing Clash Royale, and effectively win the hearts and minds of every teenage boy across America. If only they could vote, but that's beyond your reach. "
         }
     },
@@ -38411,7 +38411,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3093,
         "fields": {
             "answer": 6176,
-            "candidate": 300,
+            "candidate": 301,
             "answer_feedback": "From California to Texas, millions of Mexican-American immigrants and their relatives lie down in their yards to collective spell out \"F*** YOU CHARLIE\"."
         }
     },
@@ -38456,7 +38456,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3098,
         "fields": {
             "answer": 6184,
-            "candidate": 300,
+            "candidate": 301,
             "answer_feedback": "<p>Skeptics wondered if you were going to play defense a little bit when it came to this, but apparently not. You bite Walz's ear off, while Joe Rogan acts as a hype man and Anderson Cooper, that nepo Vanderbilt baby fuck just looks on in horror. It's a real show.</p>"
         }
     },
@@ -38465,7 +38465,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3099,
         "fields": {
             "answer": 6187,
-            "candidate": 300,
+            "candidate": 301,
             "answer_feedback": "<p>Somewhere out in Maine, some oyster guy with a Nazi tattoo furrows his eyebrows. Your ineptitude, brought about by the enabling of that South African Tesla boy fuckface, has brought him to absolute rage and fury. \"Nobody stands in the way of my gay friends\", says the oysterman. That man is Graham Cunningham Platner, 49th President of the United States.</p>"
         }
     },
@@ -38474,7 +38474,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3108,
         "fields": {
             "answer": 6201,
-            "candidate": 300,
+            "candidate": 301,
             "answer_feedback": "https://youtu.be/H2LQMElLoLs&t=25"
         }
     },
@@ -38483,7 +38483,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 3110,
         "fields": {
             "answer": 6203,
-            "candidate": 300,
+            "candidate": 301,
             "answer_feedback": "Let's see what kind of an effect this story has, but for the record, it seems to not move the needle much with your voting base."
         }
     },
@@ -38492,7 +38492,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 42576,
         "fields": {
             "answer": 6185,
-            "candidate": 300,
+            "candidate": 301,
             "answer_feedback": "<p>You and Walz end up pulling your pants down for a dick measuring contest instead of a debate. Anderson Cooper is mystified, Destiny is jealous, and Ben Shapiro wonders where the hell this Charlie Kirk has been all along.</p>"
         }
     },
@@ -38501,7 +38501,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 42580,
         "fields": {
             "answer": 6186,
-            "candidate": 300,
+            "candidate": 301,
             "answer_feedback": "<p>You challenge Walz to a golf tournament to determine who'd be a better President based off of golf handicap. Walz, a known hunter and gatherer, stares at you in confusion as he has no idea what the fuck you are talking about.</p>"
         }
     },
@@ -38510,7 +38510,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 42583,
         "fields": {
             "answer": 6131,
-            "candidate": 300,
+            "candidate": 301,
             "answer_feedback": "<p>Did DeSantis come and hold your children hostage?</p>"
         }
     },
@@ -38519,7 +38519,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 42584,
         "fields": {
             "answer": 6129,
-            "candidate": 300,
+            "candidate": 301,
             "answer_feedback": "<p>Many Republicans and conservatives across the country are beginning to call you \"Cuckface Charlie\", as your attempt to appeal to the Haley wing of the party falls flat on your cuckface.</p>"
         }
     },
@@ -38528,7 +38528,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 42586,
         "fields": {
             "answer": 6130,
-            "candidate": 300,
+            "candidate": 301,
             "answer_feedback": "<p>Trump calls to give you your thanks, and the base certainly takes note of it. Meanwhile, Destiny is angered at your seeming embrace of a non-centrist personality. But Destiny could go to hell for all you care.</p>"
         }
     },
@@ -38537,7 +38537,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 42587,
         "fields": {
             "answer": 6208,
-            "candidate": 300,
+            "candidate": 301,
             "answer_feedback": "Mike Pence? Have you gone schizo? You're choosing MORENO as your running mate. Jesus Christ, it's like you've gone off the damn deep end these last few months, Charlie..."
         }
     },
@@ -38546,7 +38546,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 42589,
         "fields": {
             "answer": 6209,
-            "candidate": 300,
+            "candidate": 301,
             "answer_feedback": "He better be, because the American people want more than to know who you want in your pants, you fucking perv. Half the country doesn't even know what you're talking about- wait, hope? Like the famous Campaign Trail mod?"
         }
     },
@@ -38555,7 +38555,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 42593,
         "fields": {
             "answer": 42591,
-            "candidate": 300,
+            "candidate": 301,
             "answer_feedback": "Unfortunately, you were not able to get out in time and your balls got shot off. You survive, but your political career is fucking over, and 10 feet in the shitter. You can't even jork it with Erika anymore. Goodbye."
         }
     },
@@ -38564,7 +38564,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 42596,
         "fields": {
             "answer": 42592,
-            "candidate": 300,
+            "candidate": 301,
             "answer_feedback": "You catch the bullet with your teeth, spit it out, and are proclaimed a national hero by the media and the government. Donald Trump himself gifts you a golden toilet, whatever the fuck that is, and you're known far and wide for being a....guy who survived. I guess."
         }
     },
@@ -38573,7 +38573,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 42604,
         "fields": {
             "answer": 42590,
-            "candidate": 300,
+            "candidate": 301,
             "answer_feedback": "You know what? No. Fuck you. You shouldn't have played this mod. What the fuck is wrong with you. I don't know why I did this. I don't even know why I got up this morning."
         }
     },
@@ -38582,7 +38582,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 42717,
         "fields": {
             "answer": 42605,
-            "candidate": 300,
+            "candidate": 301,
             "answer_feedback": "Trump feels snubbed by your apparent apathy, and he is not afraid to Showcase it out on the Campaign Trail."
         }
     },
@@ -38591,7 +38591,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 42718,
         "fields": {
             "answer": 6141,
-            "candidate": 300,
+            "candidate": 301,
             "answer_feedback": "No, Charlie. No we do not. "
         }
     },
@@ -38600,7 +38600,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 42719,
         "fields": {
             "answer": 6155,
-            "candidate": 300,
+            "candidate": 301,
             "answer_feedback": "Yungblud thinks he's Nixon in The Eighth Crisis. Mans got me dying over here, swear to God..."
         }
     },
@@ -38609,7 +38609,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 42721,
         "fields": {
             "answer": 6153,
-            "candidate": 300,
+            "candidate": 301,
             "answer_feedback": "I guess so? Shouldn't be too hard."
         }
     },
@@ -38618,7 +38618,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 42722,
         "fields": {
             "answer": 6174,
-            "candidate": 300,
+            "candidate": 301,
             "answer_feedback": "Your advisors shoot this down as a stupid idea, maybe the stupidest to have ever been brought up as an option. You spend the day playing games with this guy, Jynxi, and you find you're not too bad at it yourself."
         }
     },
@@ -38627,7 +38627,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 42723,
         "fields": {
             "answer": 6173,
-            "candidate": 300,
+            "candidate": 301,
             "answer_feedback": "You get along well with KSI and Logan Paul, but some criticize you for tagging along with two village idiots who scam the hell out of people for crypto pump and dump schemes."
         }
     },
@@ -38636,7 +38636,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 42725,
         "fields": {
             "answer": 6118,
-            "candidate": 300,
+            "candidate": 301,
             "answer_feedback": "Incredible job, Charlie. You've managed to make every economist around the globe actually agree on something for once - that your 'economic recovery plan' is complete batshit insane."
         }
     },
@@ -38645,7 +38645,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 42727,
         "fields": {
             "answer": 6140,
-            "candidate": 300,
+            "candidate": 301,
             "answer_feedback": "Give 'em hell, Charlie!"
         }
     },
@@ -38654,7 +38654,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 42730,
         "fields": {
             "answer": 6168,
-            "candidate": 300,
+            "candidate": 301,
             "answer_feedback": "Have you ever wondered why divorce happens? This. This right here is why divorce happens. "
         }
     },
@@ -38663,7 +38663,7 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 42731,
         "fields": {
             "answer": 6169,
-            "candidate": 300,
+            "candidate": 301,
             "answer_feedback": "Gambled soul away? Check. Gambled dignity away? Check. Gambled respect away? Check. It only made sense for you to gamble your actual money away."
         }
     }
