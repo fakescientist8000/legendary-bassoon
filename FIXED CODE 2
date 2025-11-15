@@ -38669,16 +38669,20 @@ campaignTrail_temp.answer_feedback_json = [
     }
 ]
 
+campaignTrail_temp.candidate_image_url = "https://i.imgur.com/S7K7Y1w.jpeg";
+campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/J5C2JXw.jpeg";
+campaignTrail_temp.candidate_last_name = "Kirk";
+campaignTrail_temp.running_mate_last_name = "Moreno";
+
 
 
 campaignTrail_temp.jet_data = [{
     "nicknames": {
-        "301": "Charlie Kirk",
-        "302": "Tim Walz",
+        "300": "Charlie Kirk",
+        "301": "Tim Walz",
         "302": "Justin Amash",
         "303": "Jill Stein"
-    }
-}
+    },
     "banner_enabled": true,
     "banner_data": {
         "canName": "Kirk",
@@ -38686,5 +38690,5 @@ campaignTrail_temp.jet_data = [{
         "canImage": "https://i.imgur.com/S7K7Y1w.jpeg",
         "runImage": "https://i.imgur.com/J5C2JXw.jpeg"
     }
+}
 ]
-
